@@ -1,0 +1,33 @@
+#under construction
+
+
+output files:
+
+calltrace.txt -  syscall sequence
+
+argtrace.txt - syscall trace with arguments
+
+umap.txt  - after training all unary relations
+
+control.txt - after training all control flow relations
+
+sysseq.txt - after training map file containing system call and sequence details.
+
+syscallmap.txt - input file contains interesting argument details
+
+
+shell files:
+
+ls_generator.sh  -  generates traces for ls command with different arguments
+
+
+make files:
+
+training.make - builds the entire project.
+
+
+source files:
+
+TODO
+
+
